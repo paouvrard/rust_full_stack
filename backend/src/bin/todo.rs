@@ -1,5 +1,5 @@
 use std::env;
-use rust_full_stack::db::{create_task, establish_connection, query_task};
+use backend::db::{create_task, establish_connection, query_task};
 
 fn help() {
     println!("subcommands:db");
